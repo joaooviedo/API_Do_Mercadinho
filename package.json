@@ -1,23 +1,29 @@
 {
-  "name": "api_do_mercadinho",
+  "name": "catalogo-quimica",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joaooviedo/API_Do_Mercadinho.git"
+    "url": "git+https://github.com/joaooviedo/Catalogo-Quimica-1.0.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joaooviedo/API_Do_Mercadinho/issues"
+    "url": "https://github.com/joaooviedo/Catalogo-Quimica-1.0/issues"
   },
-  "homepage": "https://github.com/joaooviedo/API_Do_Mercadinho#readme",
+  "homepage": "https://github.com/joaooviedo/Catalogo-Quimica-1.0#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
