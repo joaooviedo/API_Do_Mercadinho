@@ -2,18 +2,18 @@
 
 # Rotas:
 
-Exibir todos os produtos:
+# Exibir todos os produtos:
 produtos/todos-produtos
 
-Exibir por ID:
+# Exibir por ID:
 produtos/:id
 
-Criar produto:
+# Criar produto:
 produtos/criar-produto
 
-Atualizar produto:
+# Atualizar produto:
 produtos/atualizar-produto/:id
 
-Deletar produto:
+# Deletar produto:
 produtos/deletar-produto/:id
 
