@@ -2,12 +2,12 @@ const mongoose = require('mongoose');
 
 function connectToDatabase() {
   mongoose
-    .connect('mongodb+srv://admin:58627094@cluster0.smajghw.mongodb.net/?retryWrites=true&w=majority', {
+    .connect(process.env.URI_DATABASE, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
     .then(() => {
-      console.log('MONGO DB CONECTADO');
+      console.log('MONGO DB ATLAS CONECTADO');
     })
     .catch((err) => {
       return console.log(`Erro na conexao com o banco: ${err}`);

@@ -6,7 +6,7 @@
 produtos/todos-produtos
 
 # Exibir por ID:
-produtos/:id
+produtos/produto/:id
 
 # Criar produto:
 produtos/criar-produto
